@@ -29,7 +29,7 @@ const Login = () => {
                       <label className="form-check-label" htmlFor="remember_me">⠀Zapamti me</label>
                   {/*                                        ovo nije space ----^   */}
                   </div>
-                  <a className="text-decoration-none fw-bold" href="#">Zaboravljena šifra?</a>
+                  <a className="text-decoration-none fw-bold" href="/forgot">Zaboravljena šifra?</a>
               </div>
               <AuthButton text="Prijavi se"/>
               <AuthOther
