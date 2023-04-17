@@ -45,7 +45,7 @@ const Register = () => {
                 <AuthButton text="Prijavi se"/>
                 <AuthOther
                     message="Već imate račun? "
-                    link="#"
+                    link="/login"
                     linkText="Prijavite se"
                 />
             </AuthForm>
