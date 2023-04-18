@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./Auth.css";
 
 const AuthTitle = (props) => {

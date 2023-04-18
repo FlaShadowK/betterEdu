@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./Auth.css";
 import AuthFormContainer from "./AuthFormContainer";
 import AuthTitle from "./AuthTitle";
