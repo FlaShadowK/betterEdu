@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <div style={{backgroundColor: "black", gap: '20px'}}
                  className={'d-flex justify-content-center text-center align-items-center h-100 py-3'}>
-                <a href="https://github.com/betterEdu/betterEdu">
+                <a target={'_blank'} href="https://github.com/betterEdu/betterEdu">
                     <div className={'d-flex justify-content-center align-items-center'}>
                         <div>
                             <img src="https://github.githubassets.com/favicons/favicon-dark.png" alt="github"
@@ -13,7 +13,7 @@ const Header = () => {
                         </div>
                     </div>
                 </a>
-                <a href="https://www.figma.com/file/sVBo8tqzFELSqAMtB76fq5/hakaton?node-id=3-65&t=ISsdfaxdBPTvcG6T-0">
+                <a target={'_blank'} href="https://www.figma.com/file/sVBo8tqzFELSqAMtB76fq5/hakaton?node-id=3-65&t=ISsdfaxdBPTvcG6T-0">
                     <div className={'d-flex justify-content-center align-items-center'}>
                         <div>
                             <img style={{width: '40px'}} src="https://static.figma.com/app/icon/1/favicon.svg" alt="github"
