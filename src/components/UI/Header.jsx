@@ -6,10 +6,14 @@ const Header = () => {
             <div style={{backgroundColor: "black"}}
                  className={'d-flex justify-content-center text-center align-items-center h-100 py-3'}>
                 <a href="https://github.com/betterEdu/betterEdu">
-                    <div>
-                        <img src="https://github.githubassets.com/favicons/favicon-dark.png" alt="github"
-                             className={'pe-2'}/>
-                        <a style={{color: "white", display: "inline-block"}}>GitHUB repo</a>
+                    <div className={'d-flex justify-content-center align-items-center'}>
+                        <div>
+                            <img src="https://github.githubassets.com/favicons/favicon-dark.png" alt="github"
+                                 className={'pe-2'}/>
+                        </div>
+                        <div>
+                            <a style={{color: "white", display: "inline-block"}}>GitHUB repo</a>
+                        </div>
                     </div>
                 </a>
             </div>
