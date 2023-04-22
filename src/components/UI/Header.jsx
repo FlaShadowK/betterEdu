@@ -2,7 +2,7 @@ import styles from './Header.module.css';
 
 const Header = () => {
     return (
-        <nav className={'d-flex justify-content-around px-3 py-3 align-items-center border-bottom'}>
+        <nav style={{paddingLeft: '150px', paddingRight: '150px'}} className={'d-flex justify-content-between py-3 align-items-center border-bottom'}>
             <div>
                 <a href={'/'}>
                     <img className={'pe-4 py-3'} src="/logo.svg" alt="logo"/>
