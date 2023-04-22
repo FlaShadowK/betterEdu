@@ -1,13 +1,12 @@
+import Header from "../UI/Header";
+import ReactDOM from "react-dom";
 
 const Home = () => {
     return (
-    <div>
-        <h1>Home</h1>
-        <a href="/login">Login</a>
-        <br/>
-        <a href="/register">Register</a>
-    </div>
-  );
+        <>
+            {ReactDOM.createPortal(<Header/>, document.getElementById('header'))}
+        </>
+    );
 }
 
 export default Home;
