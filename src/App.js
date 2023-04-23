@@ -1,11 +1,15 @@
-import Login from "./components/Auth/Login";
-import Register from "./components/Auth/Register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AuthReset from "./components/Auth/components/AuthReset";
-import Home from './components/Home/Home';
-import Profile from "./components/Profile/Profile";
 import './assets/bootstrap/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+
+import Home from './components/Home/Home';
+
+import Login from "./components/Auth/Login";
+import Register from "./components/Auth/Register";
+import AuthReset from "./components/Auth/components/AuthReset";
+
+import Profile from "./components/Profile/Profile";
+import EditProfile from "./components/Profile/EditProfile";
 function App() {
   return (
     <BrowserRouter>
@@ -16,7 +20,10 @@ function App() {
                 <Route path="home" element={<Home/>}/>
                 <Route path="register" element={<Register/>}/>
                 <Route path="forgot" element={<AuthReset/>}/>
-                <Route path="profile" element={<Profile/>}/>
+            </Route>
+            <Route path="/profile/">
+                <Route index element={<Profile/>}/>
+                <Route path="edit" element={<EditProfile/>}/>
             </Route>
         </Routes>
     </BrowserRouter>
