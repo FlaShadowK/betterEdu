@@ -4,7 +4,7 @@ const Header = () => {
           <div className="row justify-content-between">
               <div className="d-flex textarea col-md-7 align-items-center">
                   <div>
-                      <h1 className={'titleHeader'}>Za bolju, pristupačnu i jednostavnu edukaciju!</h1>
+                      <h1 className={'titleHeader'}>Za bolju, pristupačnu i jednostavnu <span style={{color: '#0085FF'}}>edu</span>kaciju!</h1>
                       <p className={'para py-3'}>Naš cilj je da olakšamo posao profesorima i učenicima u školama, te da stvorimo bolje uslove za učenje i razvoj.
                           Smatramo da je kvalitetna edukacija ključna za budućnost našeg društva, te se zalažemo za stvaranje sistema koji će biti pravedniji i učinkovitiji za sve.</p>
                       <div className="buttons">

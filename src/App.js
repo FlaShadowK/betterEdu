@@ -5,7 +5,7 @@ import AuthReset from "./components/Auth/components/AuthReset";
 import Home from './components/Home/Home';
 import Profile from "./components/Profile/Profile";
 import './assets/bootstrap/css/bootstrap.css';
-import './assets/bootstrap/js/bootstrap.bundle';
+import 'bootstrap/dist/js/bootstrap.min.js';
 function App() {
   return (
     <BrowserRouter>
