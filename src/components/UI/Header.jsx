@@ -1,4 +1,6 @@
 import styles from './Header.module.css';
+import Picture from "../Profile/Profile.svg";
+
 
 const Header = () => {
     return (
@@ -19,7 +21,7 @@ const Header = () => {
                 </div>
                 <div className={styles.links}>
                     <a href="/profile">
-                        <img style={{height: 32}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/340px-Default_pfp.svg.png?20220226140232" alt=""/>
+                        <img style={{height: 32}} src={Picture} alt=""/>
                     </a>
                 </div>
             </nav>
