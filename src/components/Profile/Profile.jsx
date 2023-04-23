@@ -14,7 +14,7 @@ const Profile = () => {
             <ProfileContainer>
                 <div className="d-flex justify-content-between align-items-center">
                     <ProfilePicture image={Picture}/>
-                    <button type="button" className="btn btn-outline-secondary">Edit</button>
+                    <a href={'/profile/edit'} className="btn btn-outline-secondary">Edit</a>
                 </div>
                 <ProfileDetails
                     ime={"Marko"}

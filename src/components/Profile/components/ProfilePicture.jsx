@@ -1,7 +1,7 @@
 
 const ProfilePicture = (props) => {
   return (
-      <img style={{height: 145, borderRadius: "50%"}} src={props.image} alt=""/>
+      <img style={{height: props.height || 145, borderRadius: "50%"}} src={props.image} alt=""/>
   );
 }
 
