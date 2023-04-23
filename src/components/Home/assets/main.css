@@ -1,0 +1,60 @@
+html, body {
+    overflow-x: hidden;
+}
+
+.titleHeader {
+    color: #101828;
+    font-size: 60px;
+}
+
+.para {
+    color: #475467;
+    font-size: 20px;
+}
+
+.title1{
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .titleHeader {
+        text-align: center !important;
+        font-size: 48px;
+    }
+
+    .titleHeaderSection {
+        padding-top: 40px !important;
+    }
+
+    .para {
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+
+    .title1 {
+        text-align: center;
+    }
+
+    .picture {
+        display: none !important;
+    }
+
+    .textarea {
+        width: 100% !important;
+    }
+
+    .picture1{
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .picture1 > image {
+        height: 50%;
+        width: 50%;
+    }
+
+}
