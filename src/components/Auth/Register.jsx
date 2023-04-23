@@ -1,10 +1,10 @@
-import "./Auth.css";
-import AuthFormContainer from "./AuthFormContainer";
-import AuthTitle from "./AuthTitle";
-import AuthForm from "./AuthForm";
-import AuthInput from "./AuthInput";
-import AuthButton from "./AuthButton";
-import AuthOther from "./AuthOther";
+import "./components/Auth.css";
+import AuthFormContainer from "./components/AuthFormContainer";
+import AuthTitle from "./components/AuthTitle";
+import AuthForm from "./components/AuthForm";
+import AuthInput from "./components/AuthInput";
+import AuthButton from "./components/AuthButton";
+import AuthOther from "./components/AuthOther";
 const Register = () => {
     return(
         <AuthFormContainer>
