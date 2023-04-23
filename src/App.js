@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AuthReset from "./components/Auth/AuthReset";
 import Home from './components/Home/Home';
 import './assets/bootstrap/css/bootstrap.css';
-import './assets/bootstrap/js/bootstrap.bundle';
+import 'bootstrap/dist/js/bootstrap.min.js';
 function App() {
   return (
     <BrowserRouter>
