@@ -11,7 +11,7 @@ const Modal = (props) => {
 
     const clickReasonHandler = (evt) => {
         evt.preventDefault();
-        if (parseInt(evt.target.value) === selected) {
+        if (parseInt(evt.target.value) === selected || !evt.target.value) {
 
         } else {
             setSelected(parseInt(evt.target.value));
