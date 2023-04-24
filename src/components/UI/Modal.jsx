@@ -91,6 +91,7 @@ const Modal = (props) => {
                                     data-bs-dismiss="modal">Nazad
                             </button>
                             <button type="button" style={{height: '50px'}}
+                                    data-bs-dismiss="modal"
                                     className="btn btn-primary col-12 col-md-5">Potvrdi
                             </button>
                         </div>
