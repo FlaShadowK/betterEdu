@@ -16,10 +16,6 @@ const User = () => {
 
     const [showModal, setShowModal] = useState(0);
 
-    const openModal = () => {
-        setShowModal((prevState) => prevState++);
-    }
-
     return (
         <>
             <Header />
@@ -27,7 +23,7 @@ const User = () => {
             <ProfileContainer>
                 <div className="d-flex justify-content-between align-items-center">
                     <ProfilePicture image={Picture}/>
-                    <button onClick={openModal} data-bs-toggle="modal" data-bs-target="#myModal" className="btn btn-outline-danger">Report</button>
+                    <button data-bs-toggle="modal" data-bs-target="#myModal1" className="btn btn-outline-danger">Report</button>
                 </div>
                 <ProfileDetails
                     ime={"Marko"}
