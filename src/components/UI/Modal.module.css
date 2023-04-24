@@ -1,0 +1,17 @@
+.checked button {
+    border-color: #0085FF;
+    color: #0085FF;
+    background-color: #e3f2fd;
+}
+
+.checked button:hover {
+    border-color: #0085FF;
+    color: #0085FF;
+    background-color: #c7e0fa
+}
+
+.checked button:focus {
+    border-color: #0085FF;
+    color: #0085FF;
+    background-color: #e3f2fd;
+}
